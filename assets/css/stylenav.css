@@ -116,7 +116,7 @@ input[type="checkbox"] {
   }
 
   .menu li:hover {
-    display: inline-block;
+    display: inline;
     transition: 0.3s ease;
   }
 
