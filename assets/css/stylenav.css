@@ -143,11 +143,13 @@ input[type="checkbox"] {
 
 .title {
   font-size: large;
+	position:fixed;
   display: block;
 }
 
 .header-container > .image-logo {
   margin-right: 10px;
+	position:fixed;
   width: 60px;
   height: 60px;
   background-blend-mode: normal;
@@ -160,6 +162,7 @@ input[type="checkbox"] {
 
 .sub-title {
   display: block;
+	position:fixed;
   font-size: small;
 }
 
