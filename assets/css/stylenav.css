@@ -84,6 +84,7 @@ nav {
 
 .dropdown li:hover {
   color: #d9232d;
+display: block;	
   z-index: 1;
 }
 
@@ -137,6 +138,7 @@ input[type="checkbox"] {
 
   .dropdown li:hover {
     color: #d9232d;
+    display: block;
     z-index: 1;
   }
 }
