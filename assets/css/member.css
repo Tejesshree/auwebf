@@ -1,0 +1,296 @@
+
+
+
+/* CONTACT PAGE */
+
+.fullbox {
+  font-family: Lato, Open Sans, sans-serif;
+  width: 40%;
+  margin-bottom: 1%;
+  border: 1px solid rgb(172, 171, 171);
+  /* overflow: hidden; */
+  height: 140px;
+  border-radius: 3px;
+  display: flex;
+
+  /* border: 2px solid; */
+  flex-direction: row;
+
+  @media(max-width: 900px) {
+      width: 100%;
+  }
+
+}
+
+.fullbox:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.img-box {
+  /* float: left; */
+  /* border: 1px solid #ccc; */
+  width: 20%;
+  height: 80%;
+  margin: 15px;
+
+  @media(max-width: 500px) {
+      width: 30%;
+  }
+
+  /* border: red solid 2px; */
+}
+
+
+.anouncedetails {
+  float: left;
+  width: 100%;
+  height: 100%;
+  margin: 3%;
+
+  @media(max-width: 500px) {
+      margin: 2%;
+  }
+
+}
+
+.anouncehead {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-weight: bold;
+  /* padding-bottom: 10px; */
+  /* border: red solid 2px; */
+  border-bottom: solid rgb(162, 162, 162);
+  border-bottom-width: thin;
+
+  @media(max-width: 500px) {
+      font-size: 15px;
+  }
+}
+
+.anouncesub {
+  padding-top: 10px;
+  font-size: 13px;
+  color: grey;
+}
+
+.link {
+  padding-top: 12px;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+button {
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: white;
+  border: #a7a5a5 1px solid;
+}
+
+button:hover {
+  background-color: #f7f7f7;
+  border: #a7a5a5 1px solid;
+}
+
+.memberCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 2%;
+}
+
+.memberTitle {
+  display: flex;
+  padding: 2% 0 2% 4%;
+  font-weight: 600;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.contact {
+	height: 100vh;
+	display: grid;
+	align-items: center;
+  padding-top: 80px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.contactt-wrap {
+	width: auto;
+	height: 80;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contactt-in {
+	padding: 40px 30px;
+}
+
+.contactt-in:nth-child(1) {
+	flex: 30%;
+	background: url(../images/1.jpg);
+	color: #100101;
+}
+
+.contactt-in:nth-child(2) {
+	flex: 45%;
+	background: #010101;
+}
+
+.contactt-in:nth-child(3) {
+	flex: 25%;
+	padding: 0;
+}
+
+.contactt-in h1 {
+	font-size: 24px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.contactt-in h2 {
+	font-size: 20px;
+	font-weight: 800;
+	margin-bottom: 15px;
+}
+
+.contactt-in h2 i {
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	background: #f5f5f5;
+	color: #000;
+	border-radius: 50px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.contactt-in p {
+	font-size: 16px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+
+.contactt-in ul {
+	padding: 0;
+	margin: 0;
+}
+
+.contactt-in ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.contactt-in ul li a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #121010;
+	border-radius: 50px;
+}
+
+.contact-in ul li a i {
+	font-size: 14px;
+	line-height: 30px;
+	color: #000;
+}
+
+.contactt-in form {
+	width: 100%;
+	height: auto;
+}
+
+.contactt-in-input {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	border: 2px solid #fff;
+	outline: none;
+	padding-left: 5px;
+	background: transparent;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+
+.contactt-in-input::placeholder {
+	color: #fff;
+}
+
+.contactt-in-textarea {
+	width: 100%;
+	height: 140px;
+	margin-bottom: 20px;
+	border: 2px solid #fff;
+	outline: none;
+	padding-top: 5px;
+	padding-left: 5px;
+	background: transparent;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+
+.contactt-in-textarea::placeholder {
+	color: #fff;
+}
+
+.contactt-in-btn {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #fff;
+	outline: none;
+	background: rgb(124, 152, 236);
+	color: #120f0f;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+	cursor: pointer;
+}
+
+.contactt-in iframe {
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen and (max-width:480px) {
+	.contactt-in:nth-child(1) {
+		flex: 50%;
+	}
+
+	.contactt-in:nth-child(2) {
+		flex: 50%;
+	}
+
+	.contactt-in:nth-child(3) {
+		flex: 100%;
+	}
+
+}
+
+@media only screen and (max-width:360px) {
+	.contactt-in:nth-child(1) {
+		flex: 50%;
+	}
+
+	.contactt-in:nth-child(2) {
+		flex: 50%;
+	}
+
+	.contactt-in:nth-child(3) {
+		flex: 100%;
+	}
+
+}
