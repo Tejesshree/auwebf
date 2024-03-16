@@ -28,7 +28,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     </head>
     <body>
-        
+        <div>
           <nav class="navbar">
     
     
@@ -138,10 +138,8 @@
               </div>
             </ul>
             
-          </nav>    
-
-         
-            
+          </nav> 
+        </div>               
             <section class="index">
             <div id="hero">
                 <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -188,11 +186,12 @@
               <div class="director-message">
                 <img src="assets/img/gallery/director.jpg" alt="Director's Image" class="director-image">
                 <div class="message-content">
-                  <h1><b>Director’s Message</h1></h1>
+                  <h1><b>Director's Message</h1></h1>
                   <h2>- Dr. P.T.V. Bhuvaneswari</h2>
                   <h2>Professor & Founder Director</h2>
                   <p>
-                    The delighted team members of Centre for Internet of Things (CIoT) take pleasure in welcoming all. Madras Institute of Technology (MIT), one of the autonomous constituent institutions of the Anna University located in Chromepet, Chennai, India was established in 1949 by the Great Visionary Chinnaswami Rajam. It was the first self-financing institute opened in India with a mission to produce skilled engineering to meet the need of the society. It offered Engineering under various specializations namely Aeronautical Engineering, Automobile Engineering,  Electronics Engineering and Instrumentation Engineering.
+                    The delighted team members of Centre for Internet of Things (CIoT) take pleasure in welcoming all. Madras Institute of Technology (MIT), one of the autonomous constituent institutions of the Anna University located in Chromepet, Chennai,
+                     India was established in 1949 by the Great Visionary Chinnaswami Rajam. It was the first self-financing institute opened in India with a mission to produce skilled engineering to meet the need of the society. It offered Engineering under various specializations namely Aeronautical Engineering, Automobile Engineering,  Electronics Engineering and Instrumentation Engineering.
                     <br><br>
                   </p>
                 </div>
@@ -290,7 +289,7 @@
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-award">Laboraroties</li>
+            <li data-filter=".filter-award">Laboratories</li>
             <li data-filter=".filter-workshop">Workshop</li>
             <li data-filter=".filter-social">Events</li>
           </ul>
@@ -443,35 +442,37 @@
 
 </section>
   <!-- End Portfolio Section -->
-  <footer id="footer">
-    <div class="footer-container">
-      <div class="contact-info">
-        <h2>CONTACT US</h2>
-        <i class="fas fa-phone-alt"></i>
-        <p>+91 123456789</p>
-        
-        <p><i class="fas fa-envelope"></i></p>
-        <a href="mailto:Email Address" class="footer-email">Email</a>
-        <p></p>
-        <p><i class="fas fa-map-marker-alt"></i></p>
-        <p>Anna University, MIT Campus,<br>
+  <!--------------------------start of footer----------------------------->
+  <footer id="footer" >
+    <div class="contact-wrap">
+			<div class="contact-in">
+				<h1>Contact Info</h1>
+				<h2><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
+				<p>044 22516097</p>
+				<h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
+				<p>info@democompany.com</p>
+				<h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
+				<p>Anna University, MIT Campus,<br>
           Chromepet, Chennai 600044</p>
-      </div>
-      <div class="form-container">
-        <h2>LEAVE A MESSAGE</h2>
-        <form>
-          <label for="name">Enter your Name:</label>
-          <input type="text" id="name" name="name" placeholder="Your Name">
-          <label for="email">Enter a valid email address:</label>
-          <input type="email" id="email" name="email" placeholder="Email Address">
-          <input type="submit" value="SUBMIT">
-        </form>
-      </div>
-    </div>
+		
+			</div>
+			<div class="contact-in" >
+				<h1>Send a Message</h1>
+				<form>
+					
+					<input type="text" placeholder="Email" class="contact-in-input">
+					<textarea placeholder="Message" class="contact-in-textarea"></textarea>
+					<input type="submit" value="SUBMIT" class="contact-in-btn">
+				</form>
+			</div>
+			<div class="contact-in" style="height: min-content;">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.3651533645407!2d80.1373514235886!3d12.948470315387988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f0039d4c82b%3A0xd0e750c61ecae6ac!2sIoT%20Building!5e0!3m2!1sen!2sin!4v1710522442092!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
    
 
   </footer>
-  
+  <!-------------end of footer-------------------->
 
 </body>
 </html>
