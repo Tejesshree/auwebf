@@ -9,6 +9,7 @@ a {
 }
 
 li {
+	text-decoration: none;
   list-style: none;
 }
 
@@ -85,12 +86,12 @@ nav {
 
 .dropdown li:hover {
   color: #d9232d;
- display:block;
+	display:inline;
   z-index: 1;
 }
 
 .services:active .dropdown {
-  display: block;
+  display: inline;
 }
 
 input[type="checkbox"] {
@@ -139,7 +140,7 @@ input[type="checkbox"] {
 
   .dropdown li:hover {
     color: #d9232d;
-  
+   display:inline;
     z-index: 1;
   }
 }
