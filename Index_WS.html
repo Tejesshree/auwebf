@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="assets\css\style.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IoT Workshops</title>
+    <link rel="stylesheet" href="stylenav.css" />
+<style>
+    .list {
+padding-left: 3%;
+
+@media (max-width:500px) {
+padding-left: 6%;
+}
+}
+
+.list ul li {
+line-height: 2.5;
+font-size: large;
+
+@media (max-width:500px) {
+line-height: 2;
+font-size: medium;
+}
+}
+
+.list ul {
+padding-left: 2rem;
+}
+
+.photo-container {
+    padding: 5% 5% 20% 5%; /* Adjust the bottom padding as needed */
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    grid-gap: 5%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 800px) {
+.photo-container {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.image img,
+.content-facilities {
+margin: 5% 0%;
+}
+}
+
+.dummy {
+border: blue solid 2px;
+}
+
+.image {
+position: relative;
+/* border: green solid 2px; */
+width: 100%;
+}
+
+.image img {
+height: 400px;
+width: 100%;
+/* border: green solid 2px; */
+/* display: block;
+margin: auto; */
+}
+
+.image img:hover {
+    opacity: 0.8;
+}
+
+.container {
+    text-align: center;
+    font-size: large;
+    padding-top: 50px;
+    line-height: 1.5;
+}
+.workshop-heading {
+    font-size: 2.35cap;
+    text-align: center;
+    background-color:  #efefef;
+    padding: 10px; 
+}
+</style>
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+          <img
+            src="assets/img/gallery/logo1.png"
+            alt="Description of the image"
+            style="opacity: 0.9; width: 100px; height: 70px; padding-left: 20px"
+          />
+          <h1 class="logo" style="color: #610e12; font-size: 15px; margin-top: 0">
+            <span class="title">CENTER FOR INTERNET OF THINGS</span>
+            <span class="sub-title">ANNA UNIVERSITY</span>
+          </h1>
+          <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <div class="menu">
+              <li class="services">
+                <a href="#" target="_parent">Home</a>
+                <ul class="dropdown">
+                  <li><a href="#">Mission,Vission </a></li>
+                  <li><a href="#">Director's message</a></li>
+                  <li><a href="#">News/Events</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </li>
+              <li class="services">
+                <a href="#">People</a>
+  
+                <ul class="dropdown">
+                  <li><a href="#">Staff </a></li>
+                  <li><a href="#">Professor</a></li>
+                  <li><a href="#">Project team</a></li>
+                  <li><a href="#" target="_parent">Admin staff</a></li>
+                </ul>
+              </li>
+              <li class="services">
+                <a href="#" target="_parent">Research</a>
+  
+                <ul class="dropdown">
+                  <li><a href="#" target="_parent">Focus area </a></li>
+                  <li><a href="#" target="_parent">Current Projects</a></li>
+                  <li><a href="#" target="_parent">Completed projects</a></li>
+                  <li><a href="#" target="_parent">Outcomes</a></li>
+                </ul>
+              </li>
+              <li class="services">
+                <a href="#" target="_parent">Resources</a>
+                <ul class="dropdown">
+                  <li><a href="#" target="_parent">Facilities</a></li>
+                  <li><a href="#" target="_parent">tools</a></li>
+                </ul>
+              </li>
+              <li class="services">
+                <a href="#" target="_self">Consultancy</a>
+  
+                <ul class="dropdown">
+                  <li><a href="#" target="_self">Services</a></li>
+                </ul>
+              </li>
+              <li class="services">
+                <a href="#" target="_parent">Collaboration</a>
+                <ul class="dropdown">
+                  <li><a href="#" target="_parent">MoUs </a></li>
+                </ul>
+              </li>
+              <li class="services">
+                <a href="#" target="_parent">Activities</a>
+                <ul class="dropdown">
+                  <li><a href="#" target="_parent">Training</a></li>
+                  <li><a href="#" target="_parent">Outreach</a></li>
+                  <li><a href="#" target="_parent">Workshop</a></li>
+                  <li><a href="#" target="_parent">Conferences</a></li>
+                  <li><a href="#" target="_parent">FDP's/Seminars</a></li>
+                </ul>
+              </li>
+              <li class="services">
+                <a href="#" target="_parent">Contact</a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+     
+      
+
+    <div class="container">
+        <h1>IoT Workshops</h1>
+        
+        <h3>Two Days Workshop on IoT Fundamentals</h3>
+        <h3>17.11.2022 to 18.11.2022</h3>
+    </div>
+        <div class="workshop-heading">
+        <h5>Two days workshop on “Fundamentals of IoT” in collaboration with Department of Electronics Engineering MIT Campus, Anna University.</h5>
+    </div>
+    
+    <div class="photo-container">
+        <div class='image'><img src='assets\img\gallery\Conference_workshop\2. 2 days wrkshp\2.jpeg' alt=''>
+            
+        </div>
+        <div class='image'>
+            <img src='assets\img\gallery\Conference_workshop\2. 2 days wrkshp\3.jpeg' alt=''>
+            <div class='content-facilities'>
+                
+            </div>
+        </div>
+        <div class='image'>
+            <img src='assets\img\gallery\Conference_workshop\2. 2 days wrkshp\4.jpeg' alt=''>
+            
+        </div>
+        <div class='image'>
+            <img src='assets\img\gallery\Conference_workshop\2. 2 days wrkshp\5.jpeg' alt=''>
+            
+        </div>
+        <div class='image'>
+            <img src='assets\img\gallery\Conference_workshop\2. 2 days wrkshp\6.jpeg' alt=''>
+            
+        </div>
+        <div class='image'>
+            <img src='assets\img\gallery\Conference_workshop\2. 2 days wrkshp\7.jpeg' alt=''>
+           
+        </div>
+        
+            
+       
+        <div class='image'>
+            <img src='assets\img\gallery\Conference_workshop\2. 2 days wrkshp\12.jpeg' alt=''>
+            
+        </div>
+        
+    </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+<footer id="footer" >
+    <div class="contact-wrap">
+            <div class="contact-in">
+                <h1>Contact Info</h1>
+                <h2><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
+                <p>044 22516097</p>
+                <h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
+                <p>info@democompany.com</p>
+                <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
+                <p>Anna University, MIT Campus,<br>
+          Chromepet, Chennai 600044</p>
+        
+            </div>
+            <div class="contact-in" >
+                <h1>Send a Message</h1>
+                <form>
+                    
+                    <input type="text" placeholder="Email" class="contact-in-input">
+                    <textarea placeholder="Message" class="contact-in-textarea"></textarea>
+                    <input type="submit" value="SUBMIT" class="contact-in-btn">
+                </form>
+            </div>
+            <div class="contact-in" style="height: min-content;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.3651533645407!2d80.1373514235886!3d12.948470315387988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f0039d4c82b%3A0xd0e750c61ecae6ac!2sIoT%20Building!5e0!3m2!1sen!2sin!4v1710522442092!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+   
+
+  </footer>
+</html>
