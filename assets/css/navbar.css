@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    
+    position:relative;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: whitesmoke;
+    color: #150e0e;
+  }
+  
+  .nav-links a {
+    color:#100c0c;
+  }
+  
+  
+  .logo {
+    font-size: 1.8em;
+  }
+  
+  
+  .menu {
+    display: flex;
+    gap: 0.8em;
+    font-size: 18px;
+  }
+  
+  .menu li >a:hover {
+    color:#d9232d;
+    transition: 0.3s ease;
+  }
+  
+  .menu li {
+    
+    padding: 5px 14px;
+  }
+  
+  
+  .services {
+    position: relative; 
+  }
+  
+  .dropdown {
+    background-color: whitesmoke;
+    padding: 0.8em 0;
+    position: absolute; 
+    display: none;
+    border-radius: 5px;
+    top: 30px;
+    z-index:1;
+  }
+  
+  .dropdown li + li {
+    margin-top: 10px;
+    z-index:1;
+  }
+  
+  .dropdown li {
+      text-align:center;
+  }
+  
+  .dropdown li:hover {
+    color:#d9232d;
+    z-index: 1;
+  
+  }
+  
+  .services:hover .dropdown {
+    display: list-item;
+    
+    
+  
+  }
+  input[type=checkbox] {
+    display: none;
+  } 
+  
+  /* HAMBURGER MENU */
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+  
+  
+  @media (max-width: 768px) {
+   .menu {
+      display:none;
+      position: absolute;
+      background-color:whitesmoke;
+      right: 0;
+      left: 0;
+      text-align: center;
+      padding: 16px 0;
+    }
+  
+    .menu li:hover {
+        display: inline-block;
+      
+      transition: 0.3s ease;
+    }
+  
+    .menu li + li {
+      margin-top: 12px;
+    }
+  
+    input[type=checkbox]:checked ~ .menu {
+      display: block;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .dropdown {
+      left: 50%;
+      top: 30px;
+      transform: translateX(35%);
+      display: inline-block;
+      position:relative;
+    }
+  
+    .dropdown li:hover {
+     color: #d9232d;
+      z-index:1;
+    }
+  }
+  
+  .title {
+    font-size: large;
+    display: block;
+  }
+  
+  .header-container>.image-logo {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    background-blend-mode: normal;
+  
+    @media screen and (max-width: 500px) {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  
+  .sub-title {
+    display: block;
+   
+    font-size: small;
+  }  
