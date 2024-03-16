@@ -14,13 +14,13 @@ li {
   list-style: none;
 }
 
-nav {
+nav .navbar{
   z-index: 999;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-
+ display: inline-block;
   align-items: center;
   background: whitesmoke;
   box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
