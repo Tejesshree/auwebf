@@ -113,7 +113,23 @@
           </ul>
         </nav>
       </div>
-      <script src="assets/js/script.js"></script>        
+      <script>
+	      document.addEventListener("DOMContentLoaded", function () {
+  const servicesItems = document.querySelectorAll(".services");
+
+  servicesItems.forEach(function (item) {
+    const dropdown = item.querySelector(".dropdown");
+
+    item.addEventListener("mouseenter", function () {
+      dropdown.style.display = "block";
+    });
+
+    item.addEventListener("mouseleave", function () {
+      dropdown.style.display = "none";
+    });
+  });
+});
+      </script>        
             <section class="index">
             <div id="hero">
                 <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
