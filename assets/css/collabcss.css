@@ -228,6 +228,11 @@ input[type="checkbox"] {
   transition: 1s;
   z-index: 999;
 }
+.grid-card .card-1:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
 
 .grid-card .card-1:hover .c-body {
 
