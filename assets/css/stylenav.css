@@ -29,7 +29,7 @@ nav {
 
 
 .navbar {
-  display: flex;
+  display: inline;
   align-items: center;
   position: relative;
   justify-content: space-between;
