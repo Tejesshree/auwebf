@@ -143,7 +143,7 @@ input[type="checkbox"] {
 
 .title {
   font-size: large;
-	position:fixed;
+
   display: block;
 }
 
@@ -162,7 +162,7 @@ input[type="checkbox"] {
 
 .sub-title {
   display: block;
-	position:fixed;
+	
   font-size: small;
 }
 
