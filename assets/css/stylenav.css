@@ -18,7 +18,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  display: block;
+  display: inline-block;
   align-items: center;
   background: whitesmoke;
   box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
