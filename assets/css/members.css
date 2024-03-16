@@ -1,0 +1,12 @@
+.memberCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+}
+
+.memberTitle {
+    display: flex;
+    padding: 2% 0 2% 4%;
+    font-weight: 600;
+}
