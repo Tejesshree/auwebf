@@ -30,7 +30,7 @@ nav {
   display: flex;
   align-items: center;
   position: relative;
-  justify-content: space-between;
+  justify-content:flex-start;
   padding: 18px;
   background-color: whitesmoke;
   color: #150e0e;
@@ -102,6 +102,17 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 768px) {
+
+  .navbar {
+    display: flex;
+    align-items: flex-end;
+    /* position: relative; */
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+  
   .menu {
     display: none;
     position: absolute;
