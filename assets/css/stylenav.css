@@ -400,7 +400,7 @@ opacity: 0.3;
   
   margin-top: calc(100vh - 10px);
  
-  min-height: 100vh;
+  /* min-height: 100vh; */
 background: #fff;
 text-align: justify;
 }
@@ -685,7 +685,7 @@ float:right;
 /*--------------------------hero-----------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: rgba(63, 73, 83, 0.8);
   overflow:hidden;
   position: fixed;
@@ -831,7 +831,7 @@ float:right;
 
 @media (max-width: 992px) {
   #hero {
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   #hero .carousel-container {
@@ -1007,6 +1007,26 @@ float:right;
   margin:auto;
   
 }
+
+/* Define media queries for responsive design */
+@media (max-width: 768px) {
+  #welcome-msg {
+      font-size: 20px;
+  }
+  #iot-centre {
+      font-size: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  #welcome-msg {
+      font-size: 18px;
+  }
+  #iot-centre {
+      font-size: 40px;
+  }
+}
+
 /*-------------------------------------
 -Button header-----------------*/
 /** {
@@ -1371,4 +1391,37 @@ input[type="checkbox"] {
 		flex: 100%;
 	}
 
+}
+
+
+/* CSS for mobile responsiveness and alignment */
+@media (max-width: 768px) {
+  .director-message {
+    flex-direction: column; /* Stack image and content vertically */
+    align-items: center; /* Center align content */
+  }
+
+  .director-image {
+    width: 200px; /* Reduce image size for mobile */
+  }
+
+  .message-content {
+    padding: 20px; /* Maintain padding for content */
+    margin-top: 20px; /* Add space between image and content */
+    text-align: center; /* Center align content */
+  }
+
+  .message-content h1 {
+    font-size: 1.5em; /* Reduce heading font size */
+  }
+
+  .message-content h2 {
+    font-size: 1.2em; /* Reduce subheading font size */
+  }
+
+  .message-content p {
+    font-size: 1em; /* Reduce paragraph font size */
+    text-align: justify;
+    text-indent: 0; /* Remove indentation */
+  }
 }
